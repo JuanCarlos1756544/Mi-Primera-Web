@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> "A Domicilio"</title>
+		<link rel="stylesheet" type="text/css" href="css/Domicilio.css">
+	
+	</head>
+	<body id="fondo">
+		<div id="principal">
+			<header>
+				<div id="logo">
+					<h4 class="titulo">T-Rextaurant</h4>
+					<img src="img/T-Rex Circulo.png" width="200px" align="left" class="img2">
+				</div>
+
+				<nav class="menu">
+					<ul>
+					<li><a href="index.html">Inicio</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="A domicilio.html">A domicilio</a></li>
+						<li><a href="Sucursales.html">Sucursales</a></li>
+						<li><a href="Nosotros.html">Nosotros</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+
+			<section id="Nosotros">
+					<h1 align="center">A Domicilio</h1>
+			</section>
+			<section id="contenido">
+				<div id="pedido">
+					<p font-size= "100px" align="center"> Haga su pedido</p>
+				</div>
+					<img id=hamburguesa width="200px" src="img/hamburguesa.png">
+					<img id=ensaladas width="200px" src="img/ensaladas.png">
+					<img id=refresco width="150px" src="img/refresco.png">
+					<img id=papas width="200px" src="img/papas.png">	
+				<section id="menu1">
+					<div id="lista">
+						<form id="form1" onsubmit="return display()" action="POST">
+							<select name="select1">
+							<option value="disabled selected"> Selecione </option>
+							<option value="T-Raptor">T-Raptor</option>
+							<option value="Triceranch">Triceranch</option>
+							<option value="Bronquipaps">Bronquipaps</option>
+							<option value="BrontoBurguer">BrontoBurguer</option>
+							<option value="Spinoraptor">Spinoraptor</option>	
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" >
+									<input type="number"  min="0" max="5">
+								</p>
+						 </form>
+					</div>
+				</section>
+				
+				<section id="menu2">
+					<div id="lista">
+						<form id="form2" onsubmit="return display()" action="POST">
+							<select name="select1">
+							<option value="disabled selected"> Selecione </option>Ensalada jurasica
+							<option value="Ensalada jurasica">Ensalada jurasica</option>
+							<option value="Teronuggets">Teronuggets</option>
+							
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" onclick="return display()">
+									<input type="number"  min="0" max="5">
+								</p>
+						 </form>
+					</div>
+				</section>
+				<section id="menu3">
+					<div id="lista">
+						<form id="form3" onsubmit="return display()" action="POST">
+							<select name="select1">
+							<option value="disabled selected"> Selecione </option>
+							<option value="Pepsi">Pepsi</option>
+							<option value="mandarina">mandarina</option>
+							<option value="Manzanita">Manzanita</option>
+							<option value="Sprite">Sprite</option>
+							<option value="lihte">lihte</option>
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" onclick="return display()">
+									<input type="number"  min="0" max="5">
+								</p>
+						 </form>
+					</div>
+				</section>
+				<section id="menu4">
+					<div id="lista">
+						<form id="form4" onsubmit="return display()" action="POST">
+							<select name="select1">
+							<option value="disabled selected"> Selecione </option>
+							<option name="Papas">Papas</option>
+							<option name="Hueso Feliz">Hueso feliz</option>
+							<option name="Especial semanal">Especial semanal</option>	
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" >
+									<input type="number"  min="0" max="5">
+								</p>
+						 </form>
+					</div>
+				</section>
+				<section id="formulario2">
+					<h1 class="titulo-contacto">Formulario</h1>
+					<div id="form">
+						<form name="Formulario" method="POST" action="#">
+								<label for="nombre">nombre:</label><br>
+							<input type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+
+							<label for="correo">Email:</label><br>
+							<input type="text" name="correo" placeholder="Ingrese su email"><br>
+
+							<label for="Forma de pago">Forma de pago:</label><br>
+							<form id="form5" onsubmit="return display()" action="POST"  >
+							<select style="size: 30px" name="select1">
+							<option value="efectivo" > efectivo </option>
+							<option value="Efectivo">Efectivo</option>
+
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" onclick="return display()">
+									
+								</p>
+						 </form><br>
+						</form>
+
+					</div>
+
+				</section>
+
+				<section id="sucursales">
+					<div id="lista">
+						<form id="form5" onsubmit="return display()" action="POST"  >
+							<select style="size: 30px" name="select1">
+							<option value="disabled selected" > Llamar una sucursal </option>
+							<option value="San Pedro">San Pedro</option>
+							<option value="universidad">universidad</option>
+							<option value="Zuazua">Zuazua</option>
+							<option value="Apodaca">Apodaca</option>
+							<option value="Centro">Centro</option>	
+							</select>
+								<p>
+									<input type="button" name="submit1" value="Enviar" onclick="return display()">
+									
+								</p>
+						 </form>
+					</div>
+				</section>
+			</section>
+						<div class = "footer">
+			<div style = "position: absolute; left: 0pt; height: 900px; width: 33%">
+				<p align="CENTER" style = "position: absolute; font-size: 9pt; color: white; top: 0%; width: 50%; left: 25%">T-REXTAURANT SA DE CV<br>Todos los derechos reservados<br><br>Telefono: 8180171921<br><br>Email:support@gmail.com</p>
+			</div>
+			<div style = "position: absolute; top: 0%; left: 33%; height: 100%; width: 34%">
+				<p align="CENTER" style = "position: absolute; font-size: 9pt; color: white; top: 0%; width: 50%; left: 25%">Horario: <br>Lunes a Viernes<br>8am a 8pm<br>Sabado y Domingo<br>8 am a 3 pm</p>
+			</div>
+			<div style = "position: absolute; top; -50%; left: 67%; height: 100%; width: 33%">
+				<<p align="CENTER" style = "position: absolute; font-size: 9pt; color: white; top: -10%; width: 50%; left: 25%">Contáctanos: <br>
+				<INPUT TYPE = "text" Size = "20" Value = "Nombre"><br><INPUT TYPE = "text" Value = "Correo"><br><INPUT TYPE = "text" Value = "Celular"><br><INPUT TYPE = "text" Value = "mensaje"><br><INPUT TYPE = "button" value="Enviar"></p>
+					
+			</div>
+		</div>
+
+			
+		</div>
+
+	</body>
+</html>

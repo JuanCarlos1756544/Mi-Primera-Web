@@ -1,0 +1,166 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+	
+
+}
+#fondo{
+	background-color: #CED8F6;
+}
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 900px;
+	height: 100px;
+	border: 2px solid #011;
+	text-align: center; font-family: sans-serif;
+	margin-top: 30px;
+	background-color: #c1c1c1;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+.menu{
+	width: 700px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: -160px;
+	background: #006699;
+}
+
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	transform: translateX(30px);
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+.menu ul li a:hover{
+	background: #BDBDBD;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+#Nosotros{
+	margin-top: -15;
+	width: 900px;
+	height: 70px;
+	border: 1px solid #ccc;
+	background-color: #d65854;
+}
+
+#contenido{
+	background-image: url("Fondo.png");
+	width: 900px;
+	height: 1000px;
+	border: 1px solid #ccc;
+}
+#reclu{
+	margin-left: 200px;
+	transform: translateY(-100px);
+
+}
+#inag{
+transform: translateX(-60px);
+}
+#somos{
+transform: translateX(20px);
+}
+#parizq{
+	transform: translateX(200px);
+	font-size: 20px;
+	color: black;
+}
+#parder{
+	font-size: 20px;
+	margin-right: 160px;
+	transform: translateY(-240px);
+	text-align: right;
+	color: black;
+}
+.img2{
+	margin-top: -150px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
+.footer{
+	font-size: 15pt;
+position: absolute;  width: 900px; height: 150px; background-color: black
+}
+
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+
+#form{}
+
+#datos{
+	margin-top: 30px;
+}

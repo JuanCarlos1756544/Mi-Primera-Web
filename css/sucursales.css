@@ -1,0 +1,134 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+	
+
+}
+#fondo{
+	background-color: #CED8F6;
+}
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 900px;
+	height: 100px;
+	border: 2px solid #011;
+	text-align: center; font-family: sans-serif;
+	margin-top: 30px;
+	background-color: #c1c1c1;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+.menu{
+	width: 700px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: -160px;
+	background: #006699;
+}
+
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	transform: translateX(30px);
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+.menu ul li a:hover{
+	background: #BDBDBD;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+#Nosotros{
+	margin-top: -15;
+	width: 900px;
+	height: 70px;
+	border: 1px solid #ccc;
+	background-color: #d65854;
+}
+
+#contenido{
+	background-image: url("Fondo.png");
+	width: 900px;
+	height: 1000px;
+	border: 1px solid #ccc;
+}
+
+
+.img2{
+	margin-top: -150px;
+}
+#encuentra{
+	margin-top: -140px;
+	margin-bottom: -450px;
+
+}
+#disfruta{
+	width: 600px;
+	height: 700px;
+	margin-top: -400px;
+	margin-left: 100px;
+}
+#mapa{
+	width: 432px;
+	height: auto;
+	margin-left: 200px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: center;
+}
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 20%;
+}
+#form{
+	float: center;
+}
+.enviar{
+	padding: 5px 10px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+.footer{
+position: absolute;  width: 900px; height: 150px; background-color: black
+}
+#izq1{
+	float: left;
+	text-align: left;
+
+}
+#der1{
+	margin-right: 200px;
+	text-align: center;
+
+}
